@@ -1,0 +1,26 @@
+header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navigation {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+.image-border {
+    border: 2px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 2px;
+    height: 100px;
+    width: 100px;
+}
