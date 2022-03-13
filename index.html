@@ -10,47 +10,68 @@
 
 <body>
     <header>
-        <img src="" alt="Company Logo">
-        <nav>
-            <ul class="navigation">
-                <li>About</li>
-                <li>Services</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="nav-wrapper">
+                <img class="nav-logo" src="../odin-landing-page/images/main-logo.svg" alt="Generic Company Logo">
+                <nav>
+                    <ul class="navigation">
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <section>
-        <h1></h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button>Sign Up</button>
-        <img src="" alt="Big Hero Image">
+    <section class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-content">
+                    <h1>This website is awesome</h1>
+                    <p class="hero">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                    <button class="hero-btn">Sign Up</button>
+                </div>
+                <img class="hero-img" src="../odin-landing-page/images/hero-image.jpg" alt="Big Hero Image">
+            </div>
+            
+        </div>
     </section>
 
-    <section>
-        <h2>Some Random Information</h2>
-        <div class="images-wrapper">
-            <div class="image-border"><img src="" alt=""><p>This is some subtext under and illustration or image.</p></div>
-            <div class="image-border"><img src="" alt=""><p>This is some subtext under and illustration or image.</p></div>
-            <div class="image-border"><img src="" alt=""><p>This is some subtext under and illustration or image.</p></div>
-            <div class="image-border"><img src="" alt=""><p>This is some subtext under and illustration or image.</p></div>
+    <section class="gallery-section">
+        <div class="container">
+            <h2>Some Random Information</h2>
+            <div class="images-wrapper">
+                <div class="img-col"><img class="image-border" src="../odin-landing-page/images/gallery 1.jpg" alt=""><p>This is some subtext under and illustration or image.</p></div>
+                <div class="img-col"><img class="image-border" src="../odin-landing-page/images/gallery 2.jpg" alt=""><p>This is some subtext under and illustration or image.</p></div>
+                <div class="img-col"><img class="image-border" src="../odin-landing-page/images/gallery 3.jpg" alt=""><p>This is some subtext under and illustration or image.</p></div>
+                <div class="img-col"><img class="image-border" src="../odin-landing-page/images/gallery 4.jpg" alt=""><p>This is some subtext under and illustration or image.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <div class="container">
+            <div class="quote-wrapper">
+                <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <p class="quote-author"> -Thor, God of Thunder</p>
+            </div>
         </div>
     </section>
 
     <section>
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <p> -Thor, God of Thunder</p>
-    </section>
-
-    <section>
-        <div>
-            <h3>Call to action!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign Up</button>
+        <div class="container">
+                <div class="call-to-action">
+                    <div class="cta-content">
+                        <h3>Call to action! It's time!</h3>
+                        <p>Sign up for our product by clicking that button right over there!</p>
+                    </div>
+                    <button class="cta-btn">Sign Up</button>
+                </div>
         </div>
     </section>
 
-    <footer>Copyright © The Odin Project 2022</footer>
+    <footer><p>Copyright © The Odin Project 2022</p></footer>
 </body>
 
 </html>
